@@ -2,9 +2,8 @@
 Given the order and rider details, create a model to predict the cancellation of the order before it is cancelled by the rider.
 ### Dataset Description
 Columns ->
-order_id : unique id for each order
+order_id : unique id for each order \n
 order_time: time of the creation of order by the client
-
 order_date : date of the order
 allot_time: time of allocation of order to the rider
 accept_time: time of acceptance of the order by the rider (if available)
