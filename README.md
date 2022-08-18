@@ -12,14 +12,14 @@ delivered_time: time of delivery of the order
 cancelled_time: time of cancellation of order  
 cancelled: whether the order was cancelled  
 rider_id: unique id for each rider  
-first_mile_distance: road distance from rider’s location to the pickup location
-last_mile_distance: road distance from pickup location to the delivery location
-allotted_orders: total number of orders allotted to the rider in the 30 days before (not including) order_date
-delivered_orders: total number of orders delivered by the rider in the 30 days before (not including) order_date
-undelivered_orders: total number of orders allotted to but not delivered by the rider (i.e. cancelled) in the 30 days before (not including) order_date
-lifetime_order_count: total number of orders delivered by the rider at any time before order_date
-reassigned_order: whether the order was reassigned to this rider
-reassignment_method: if the order was reassigned, whether the reassignment was done manually (by the ops team) or automatically
-reassignment_reason: a more detailed reason for the reassignment
-session_time: total time the rider had been online on order_date before order_time
+first_mile_distance: road distance from rider’s location to the pickup location  
+last_mile_distance: road distance from pickup location to the delivery location  
+allotted_orders: total number of orders allotted to the rider in the 30 days before (not including) order_date  
+delivered_orders: total number of orders delivered by the rider in the 30 days before (not including) order_date  
+undelivered_orders: total number of orders allotted to but not delivered by the rider (i.e. cancelled) in the 30 days before (not including) order_date  
+lifetime_order_count: total number of orders delivered by the rider at any time before order_date  
+reassigned_order: whether the order was reassigned to this rider  
+reassignment_method: if the order was reassigned, whether the reassignment was done manually (by the ops team) or automatically  
+reassignment_reason: a more detailed reason for the reassignment  
+session_time: total time the rider had been online on order_date before order_time  
 
